@@ -19,16 +19,16 @@
         <thead></thead>
         <tr>
           <th colspan="2" rowspan="1">&nbsp;</th>
-          <th>Name</th>
-          <th>Mass (10<sup>24</sup>kg)</th>
-          <th>Diameter (km)</th>
-          <th>Density (kg/m<sup>3</sup>)</th>
-          <th>Gravity (m/s<sup>2</sup>)</th>
-          <th>Length of day (hours)</th>
-          <th>Distance from Sun (10<sup>6</sup>km)</th>
-          <th>Mean temperature (°C)</th>
-          <th>Number of Moons</th>
-          <th colspan="3">Notes</th>
+          <th scope="col">Name</th>
+          <th scope="col">Mass (10<sup>24</sup>kg)</th>
+          <th scope="col">Diameter (km)</th>
+          <th scope="col">Density (kg/m<sup>3</sup>)</th>
+          <th scope="col">Gravity (m/s<sup>2</sup>)</th>
+          <th scope="col">Length of day (hours)</th>
+          <th scope="col">Distance from Sun (10<sup>6</sup>km)</th>
+          <th scope="col">Mean temperature (°C)</th>
+          <th scope="col">Number of Moons</th>
+          <th scope="col" colspan="3">Notes</th>
         </tr>
     </thead>
 
@@ -36,7 +36,7 @@
         
         
         <tr>
-        <th rowspan="4" colspan="2">Terrestrial Planets</th>    
+        <th scope="rowgroup" rowspan="4" colspan="2">Terrestrial Planets</th>    
           <td>Mercury</td>
           <td>0.330</td>
           <td>4,879</td>
@@ -88,8 +88,8 @@
         
 <!-- Th elements need to be placed in same row as data, not in a separate Tr element -->
         <tr>
-        <th rowspan="4" colspan="1">Jovian Planets</th>
-        <th rowspan="2" colspan="1">Gas Giants</th> 
+        <th  scope="rowgroup" rowspan="4" colspan="1">Jovian Planets</th>
+        <th  scope="rowgroup" rowspan="2" colspan="1">Gas Giants</th> 
           <td>Jupiter</td>
           <td>1898</td>
           <td>142,984</td>
@@ -115,7 +115,7 @@
         </tr>
 
         <tr>
-        <th rowspan="2" colspan="1">Ice Giants</th>    
+        <th  scope="rowgroup" rowspan="2" colspan="1">Ice Giants</th>    
           <td>Uranus</td>
           <td>86.8</td>
           <td>51,118</td>
@@ -141,7 +141,7 @@
         </tr>
 
         <tr>
-          <th colspan="2">Dwarf Planets*</th>
+          <th  scope="rowg" colspan="2">Dwarf Planets*</th>
           <td>Pluto</td>
           <td>0.0146</td>
           <td>2,370</td>
